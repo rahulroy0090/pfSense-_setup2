@@ -118,16 +118,16 @@ http_access allow test
 
 
 ##### Now, I have created a firewall rule to deny all internet access for clients.
-![](/deny_internt.PNG)
+![](deny_internt.PNG)
 
 ##### Here is the rule to give full access to the entire network of the Squid proxy machine:
 
-![](/squid_clint.PNG)
+![](squid_clint.PNG)
 
 
 #####  Firstly, I granted internet access to the Squid proxy, then I blocked internet access for all clients
 
-![](/rule_list.PNG)
+![](rule_list.PNG)
 
 
 
@@ -137,14 +137,14 @@ http_access allow test
  
 ##### The Squid proxy is set up on this server to allow internet access through the pfSense firewall.
 
-![](/admin.PNG)
+![](admin.PNG)
 
 
 
 
 ##### Now, Internet access is denied from the pfSense firewall.
 
-![](/clint1.PNG)
+![](clint1.PNG)
 
 #### Now, I have configured the Squid proxy's IP and port to allow internet access in the Firefox browser, and I have blocked a particular website on client IP: 10.0.0.13.
 
@@ -153,7 +153,7 @@ http_access allow test
 Squid proxy IP : 10.0.0.18 
 Port: 8080
 ```
-![](/proxy.PNG)
+![](proxy.PNG)
 
 
 ##### Now, let's check the clint IP 10.0.0.13
@@ -161,7 +161,7 @@ Port: 8080
 ##### Google.com
 ##### Twitter.com
 
-![](/proxy_google.PNG)
+![](proxy_google.PNG)
 
 
 ##### Now, twitter blocked.
