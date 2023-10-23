@@ -27,7 +27,7 @@ sudo systemctl enable squid
 ```
 sudo systemctl status squid
 ```
- ![](status.PNG)
+ ![](./status.PNG)
 
 
 
