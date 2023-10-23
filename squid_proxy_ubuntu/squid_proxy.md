@@ -110,7 +110,7 @@ http_access allow test
 
 
 
-![](/acl.PNG)
+![](./acl.PNG)
 
 
 ##### I have created two rules for blocking internet access on all client machines, and another rule to allow full access for Squid proxy machines on the pfSense firewall.
