@@ -110,7 +110,7 @@ http_access allow test
 
 
 
-![](./acl.PNG)
+![](.acl.PNG)
 
 
 ##### I have created two rules for blocking internet access on all client machines, and another rule to allow full access for Squid proxy machines on the pfSense firewall.
@@ -166,13 +166,13 @@ Port: 8080
 
 ##### Now, twitter blocked.
 
-![](/proxy_twitter.PNG)
+![](proxy_twitter.PNG)
 
 
 
 ##### Now, you can access all the other's website(amazon).
 
-![](/proxy_amazon.PNG)
+![](proxy_amazon.PNG)
 
 
 
